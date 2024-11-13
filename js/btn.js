@@ -25,11 +25,3 @@ window.addEventListener("scroll", function () {
         btnTop.classList.remove("active");
     }
 });
-
-// TOP 버튼 클릭 시 최상단으로 스크롤
-function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-    });
-}
